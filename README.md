@@ -27,7 +27,7 @@ Capa de Transformación: Procesamiento de datos con Pandas para calcular métric
 Capa de Visualización: Conexión mediante el puerto 5433 a Power BI para el análisis de tendencias históricas y comparación entre países.
 
 📂 Estructura del Repositorio
-scripts/: Contiene los scripts de carga (cargar_energia.py) y transformación (limpieza_avanzada.py).
+scripts/: Contiene los scripts de carga (cargar_energia.py) y transformación (limpieza.py).
 
 data/: (Ignorado por Git) Espacio para datos locales.
 
@@ -35,7 +35,7 @@ pbix/: Archivo de reporte de Power BI.
 
 docker-compose.yml: Configuración de la infraestructura.
 
-.env: (Ejemplo incluido en la documentación) Gestión segura de credenciales.
+.env: Gestión segura de credenciales.
 
 🛡️ Buenas Prácticas Implementadas
 Variables de Entorno: Uso de archivos .env para proteger credenciales de la base de datos (seguridad).
