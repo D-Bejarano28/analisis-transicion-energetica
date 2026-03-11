@@ -1,0 +1,28 @@
+services:
+  # Servicio de la Base de Datos
+  postgres_db:
+    image: postgres:15
+    container_name: postgres_energy
+    environment:
+      POSTGRES_USER: diego_admin
+      POSTGRES_PASSWORD: tu_password_segura
+      POSTGRES_DB: energy_db
+    ports:
+      - "5433:5432"  
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_energy
+    environment:
+      PGADMIN_DEFAULT_EMAIL: diego@admin.com  
+      PGADMIN_DEFAULT_PASSWORD: admin_password 
+    ports:
+      - "8080:80"    
+    depends_on:
+      - postgres_db
+
+volumes:
+  postgres_data:
