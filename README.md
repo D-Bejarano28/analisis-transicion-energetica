@@ -2,6 +2,9 @@
 📊 Análisis de la Transición Energética en LATAM (ETL & BI)
 Este proyecto desarrolla un ecosistema completo de datos para analizar la evolución de las energías renovables en América Latina. El flujo abarca desde la extracción automatizada de datos oficiales hasta la visualización estratégica en Power BI, utilizando una arquitectura moderna de contenedores.
 
+<img width="1494" height="793" alt="Screenshot 2026-03-11 105630" src="https://github.com/user-attachments/assets/254d68ca-9a71-4707-b465-9102d1b45452" />
+
+
 🛠️ Tecnologías Utilizadas
 Lenguaje: Python 
 
@@ -43,3 +46,6 @@ Variables de Entorno: Uso de archivos .env para proteger credenciales de la base
 Entornos Virtuales: Aislamiento de dependencias mediante venv.
 
 Control de Versiones: Uso estratégico de .gitignore para mantener un repositorio limpio y profesional.
+
+
+
