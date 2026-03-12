@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 pandas
 sqlalchemy
 psycopg2-binary
 python-dotenv
+=======
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+>>>>>>> a1d56f86a81702b64ee1b122e59cfce60e676da8
 ipykernel
